@@ -1,0 +1,31 @@
+html {
+    background-color: #4E280A;
+    height: 100vh;
+    border-style: solid;
+    border-width: 5rem;
+    border-color: #9E4400;
+}
+
+.meia1, .meia2, .meia3, .meia4, .meia5, .meia6, .meia7, .meia8, .meia9, .meia10 {
+    width: 5rem;
+}
+
+.meias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
+    gap: 1rem;
+    height: 100vh;         
+    width: 100vw;            
+    position: absolute;     
+    top: 0;                  
+    left: 0;
+      right: 0;
+    bottom: 0;
+    padding: 5rem; /* Garante distância da borda */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
